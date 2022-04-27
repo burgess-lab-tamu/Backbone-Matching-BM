@@ -1,6 +1,6 @@
 ## Usage
 
-Please check the following link for accessing conformers of all cyclo-organopeptides:
+Please check the following link to access conformers of all cyclo-organopeptides:
 ```bash
 link:
 ```
