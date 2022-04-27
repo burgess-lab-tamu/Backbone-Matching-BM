@@ -32,3 +32,6 @@ two illustrative outputs were presented here:
 3BT1_uPA_scan.pse:  a graphical presentation of thorough scan over uPA hot loop (20-31) by align.py
 uPA_23_30_precise_scan.pse:  a graphical presentation of precise scan over uPA hot loop segment (23-30, including all 5 hot spots) by precise_align.py
 ```
+
+## Citation
+to be published
