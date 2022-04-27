@@ -7,7 +7,7 @@ A novel strategy of loop mimicry to discover mimics by overlaying all-Ala cyclo-
 dataset/
 ```python
 scaffolds: SMILES strings of 86 rigid and cheap organic scaffolds mentioned in the paper.
-cyclo-organopeptides: SMILES strings of 602 cyclo-organopeptides, comprised of Ala and organic fragments, catergorized by sequence length.
+cyclo-organopeptides: SMILES strings of 602 cyclo-organopeptides, comprised of Ala and organic fragments, categorized by sequence length.
 conformers: include a link to access generated conformers of 602 cyclo-organopeptides.
 ```
 
@@ -23,14 +23,14 @@ reminder:
 
 postprocess:
 1) copy_best_overlays.py: extract best-overlaid conformers with their mimic segments and save them in a new folder.
-2) overlays_pymol.py: present results in pymol, overlaying best-overlaid conformers with their mimic segments.  the results are catergorized into different loop segments for convenient check.
+2) overlays_pymol.py: present results in pymol, overlaying best-overlaid conformers with their mimic segments.  the results are categorized into different loop segments for convenient check.
 ```
 
 illustrative output/
 ```python
-two illustrative outputs were presented here:
-3BT1_uPA_scan.pse:  a graphical presentation of thorough scan over uPA hot loop (20-31) by align.py
-uPA_23_30_precise_scan.pse:  a graphical presentation of precise scan over uPA hot loop segment (23-30, including all 5 hot spots) by precise_align.py
+two illustrative outputs are presented here:
+3BT1_uPA_scan.pse:  a graphical presentation of a thorough scan over uPA hot loop (20-31) by align.py
+uPA_23_30_precise_scan.pse:  a graphical presentation of precise scan over uPA segment (23-30, including all 5 hot spots) by precise_align.py
 ```
 
 ## Citation
