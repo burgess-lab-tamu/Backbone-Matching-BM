@@ -1,5 +1,6 @@
 # IBM
 
+Streamlined protein-protein interface loop mimicry strategy
 A novel strategy of loop mimicry to discover mimics by overlaying all-Ala cyclo-organopeptides on loop targets and find hits by assessing goodness of fit.
 
 ## Usage
