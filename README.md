@@ -5,21 +5,21 @@ a novel strategy of loop mimicry to discover mimics by overlaying all-Ala cyclo-
 
 ## Usage
 
-requirements/
+requirements
 ```python
 language: Python
 packages: Pymol, Pandas, Numpy
 ```
 
 
-dataset/
+dataset
 ```python
 scaffolds: SMILES strings of 86 rigid and cheap organic scaffolds mentioned in the paper.
 cyclo-organopeptides: SMILES strings of 602 cyclo-organopeptides, comprised of Ala and organic fragments, categorized by sequence length.
 conformers: include a link to access generated conformers of 602 cyclo-organopeptides.
 ```
 
-scripts/ 
+scripts
 ```python
 prerequisites: prepare following folders under the directory of scripts.
   1) loop_target: put loop structural files here
@@ -43,7 +43,7 @@ virtual screening: screen a library of loops using precise alignment.
 This is the script used to screen 1398 Kritzer hot loops.  The results are in a zip file shared in the published paper.
 ```
 
-illustrative output/
+illustrative output
 ```python
 two illustrative outputs are presented here:
 3BT1_uPA_scan.pse:  a graphical presentation of a thorough scan over uPA hot loop (20-31) by auto-slicing alignment
