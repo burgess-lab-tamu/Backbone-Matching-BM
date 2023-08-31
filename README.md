@@ -7,7 +7,7 @@ a novel strategy of loop mimicry to discover mimics by overlaying all-Ala cyclo-
 
 requirements/
 ```python
-language: python
+language: Python
 packages: Pymol, Pandas, Numpy
 ```
 
