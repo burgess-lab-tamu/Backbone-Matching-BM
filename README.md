@@ -1,4 +1,4 @@
-# IBM
+# Backbone Matching (BM)
 
 streamlined protein-protein interface loop mimicry strategy<br>
 a novel strategy of loop mimicry to discover mimics by overlaying all-Ala cyclo-organopeptides on loop targets and find hits by assessing goodness of fit.
