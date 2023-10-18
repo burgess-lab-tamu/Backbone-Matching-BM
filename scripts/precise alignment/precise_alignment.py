@@ -60,7 +60,7 @@ def modify_pdb(path, length):
 def alignment(loop_name, n, length):
     length = str(length)
     pdb_name = loop_name + '.pdb'
-    modify_pdb(pdb_name, i)
+    modify_pdb(pdb_name, int(length))
     __main__.pymol_argv = [ 'pymol', '-qc'] 
     #pymol.finish_launching()
     dir_1 = os.listdir('conformers_for_matching')
@@ -114,7 +114,7 @@ def alignment(loop_name, n, length):
             #print(output_rmsd)
             final_output_name = []
             final_output_rmsd = []
-            for i in range(n):
+            for i in range(int(n)):
                 min_id = np.argmin(output_rmsd)
                 final_output_name.append(output_name[min_id])
                 final_output_rmsd.append(output_rmsd[min_id])
@@ -223,12 +223,12 @@ def overlay(loop_name):
             print(group_object)
             print(loop + ' ' + group_object)
             cmd.group(loop + '_', loop + ' ' + group_object)
-
+    cmd.save(loop_name + '.pse')
 
 
 if __name__== "__main__":
     alignment(sys.argv[1],sys.argv[2],sys.argv[3])
     copy_hits(sys.argv[1])
-    get_paired(sys.argv[1])
+    #get_paired(sys.argv[1])
     overlay(sys.argv[1])
 
