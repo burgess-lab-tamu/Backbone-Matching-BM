@@ -216,6 +216,7 @@ def overlay(loop_name):
             print(group_object)
             print(loop + ' ' + group_object)
             cmd.group(loop + '_', loop + ' ' + group_object)
+    cmd.save(loop_name + '.pse')
 
 
 
