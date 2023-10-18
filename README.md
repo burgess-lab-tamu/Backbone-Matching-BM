@@ -16,12 +16,12 @@ dataset
 ```python
 scaffolds: SMILES strings of 86 rigid and cheap organic scaffolds mentioned in the paper.
 cyclo-organopeptides: SMILES strings of 602 cyclo-organopeptides, comprised of Ala and organic fragments, categorized by sequence length.
-conformers: include a link to access generated conformers of 602 cyclo-organopeptides.
+conformers: include a link to access generated backbone conformers of 602 cyclo-organopeptides.
 ```
 
 scripts
 ```python
-prerequisites: prepare following folders under the directory of scripts.
+prerequisites: prepare the following folders under the directory of scripts.
   1) loop_target: put loop structural files here
   2) conformer_for_matching: put unzipped conformer files of 602 cyclo-organopeptides here
   3) align_result: empty folder, to store the RMSD values from the alignment calculation
@@ -29,14 +29,14 @@ prerequisites: prepare following folders under the directory of scripts.
 
 precise-alignment: assume a hot loop of length k, overlay this loop with cyclo-{-(Ala)k-organo-}.
 prerequisite: cut the loop structure file (in PDB format) to the desired fragment
-input: python precise-alignment.py 'loop-name.pdb' 'number of hits to store' 'length of input loop'
-example input: python precise-alignment.py 'uPA.pdb' 50 8
+input: python precise_alignment.py 'loop-name' 'number of hits to store' 'length of input loop'
+example input: python precise_alignment.py 'uPA' 50 8
 output: RMSD values in folder 'align_result', overlays of best hits with the loop fragment in the same folder as the script in Pymol pse format
 
 auto-slicing-alignment: slice a long loop to fragments with 4 - 10 amino acids, then precisely overlay each fragment with cyclo-{-(Ala)n-organo-}, n = length of the fragment.
-prerequisite: extract the long loop from the original PDB file, then save in pdb format; if the length is shorter than 10, then modify the 'alignment' function in the script
-input: python auto-slicing-alignment.py 'loop-name.pdb' 'number of hits to store'
-example input: python auto-slicing-alignment.py 'uPA.pdb' 50
+prerequisite: extract the long loop from the original PDB file, then save it in pdb format; if the length is shorter than 10, then modify the 'alignment' function in the script
+input: python auto-slicing-alignment.py 'loop-name' 'number of hits to store'
+example input: python auto-slicing-alignment.py 'uPA' 50
 output: RMSD values in folder 'align_result', overlays of best hits with different loop fragments in the same folder as the script in Pymol pse format
 
 virtual screening: screen a library of loops using precise alignment.
@@ -51,4 +51,4 @@ uPA_23_30_precise_scan.pse:  a graphical presentation of precise scan over uPA s
 ```
 
 ## Citation
-to be published
+Mi, Tianxiong, Siriwibool, Siriwalee, Burgess, Kevin, Angew. Chem. Int. Ed. 2023, e202307092.
