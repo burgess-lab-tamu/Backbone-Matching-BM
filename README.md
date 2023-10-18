@@ -51,4 +51,4 @@ uPA_23_30_precise_scan.pse:  a graphical presentation of precise scan over uPA s
 ```
 
 ## Citation
-Mi, Tianxiong, Siriwibool, Siriwalee, Burgess, Kevin, Angew. Chem. Int. Ed. 2023, e202307092.
+Mi, Tianxiong, Siriwibool, Siriwalee, Burgess, Kevin, Angew. Chem. Int. Ed. 2023, e202307092, https://onlinelibrary.wiley.com/doi/abs/10.1002/anie.202307092
