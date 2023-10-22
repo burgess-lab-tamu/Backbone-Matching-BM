@@ -23,7 +23,7 @@ scripts
 ```python
 prerequisites: prepare the following folders under the directory of scripts.
   1) loop_target: put loop structural files here
-  2) conformer_for_matching: put unzipped conformer files of 602 cyclo-organopeptides here
+  2) conformers_for_matching: put unzipped conformer files of 602 cyclo-organopeptides here
   3) align_result: empty folder, to store the RMSD values from the alignment calculation
   4) mimic_result: empty folder, to store best hits from the alignment calculation
 
