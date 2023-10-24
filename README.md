@@ -24,6 +24,8 @@ scripts
 prerequisites: prepare the following folders under the directory of scripts.
   1) loop_target: put loop structural files here
   2) conformers_for_matching: put unzipped conformer files of 602 cyclo-organopeptides here
+      *important: please place the unzipped conformer files in the following order: conformers_for_matching/(length, 4-10)/86 cyclo-organopeptides for each length/corresponding conformers;
+       here is an example of a conformer path: conformers_for_matching/4/4R0/4_0_0.mol2
   3) align_result: empty folder, to store the RMSD values from the alignment calculation
   4) mimic_result: empty folder, to store best hits from the alignment calculation
 
