@@ -47,7 +47,8 @@ This is the script used to screen 1398 Kritzer hot loops.  The results are in a 
 
 illustrative output
 ```python
-two illustrative outputs are presented here:
+virtual screening output: best cyclo-organopeptide mimics for 1398 hot loops 
+another two illustrative outputs for auto-slicing and precise-alignment:
 3BT1_uPA_scan.pse:  a graphical presentation of a thorough scan over uPA hot loop (20-31) by auto-slicing alignment
 uPA_23_30_precise_scan.pse:  a graphical presentation of precise scan over uPA segment (23-30, including all 5 hot spots) by precise alignment
 ```
