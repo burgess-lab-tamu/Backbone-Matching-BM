@@ -7,6 +7,7 @@ a novel strategy of loop mimicry to discover mimics by overlaying cyclo-organope
 
 requirements
 ```python
+system: Linux
 language: Python
 packages: Pymol, Pandas, Numpy
 ```
